@@ -21,6 +21,7 @@ env.Program('servo', ['servo.c',
                       '../lib/timer.c',
                       '../lib/ui.c',
 					  '../lib/pin.c',
-					  '../lib/oc.c'])
+					  '../lib/oc.c',
+					  '../lib/uart.c'])
 env.Hex('servo')
 env.List('servo')
